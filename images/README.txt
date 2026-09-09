@@ -1,0 +1,1 @@
+Put TSP News article images in this folder. Later we will connect image uploads through Django.

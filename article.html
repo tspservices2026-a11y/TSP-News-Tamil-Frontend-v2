@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>செய்திகள் Article | TSP செய்திகள்</title>
+  <meta name="description" content="TSP செய்திகள் article">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-main">
+      <button class="menu-toggle" id="menuToggle">☰</button>
+      <a class="brand" href="index.html">
+        <span class="brand-mark">TSP</span>
+        <span><strong>TSP NEWS</strong><small>மயிலாடுதுறை மாவட்ட செய்திகள்</small></span>
+      </a>
+      <div class="header-actions"><button class="icon-btn" id="searchOpen">⌕</button></div>
+    </div>
+    <nav class="main-nav" id="mainNav">
+      <div class="container nav-inner">
+        <a href="index.html">முகப்பு</a>
+        <a href="category.html?category=Mayiladuthurai">மயிலாடுதுறை</a>
+        <a href="category.html?category=தமிழ்நாடு">தமிழ்நாடு</a>
+        <a href="category.html?category=இந்தியா">இந்தியா</a>
+        <a href="category.html?category=உலகம்">உலகம்</a>
+        <a href="category.html?category=அரசியல்">அரசியல்</a>
+        <a href="category.html?category=குற்றம்">குற்றம்</a>
+        <a href="category.html?category=கல்வி">கல்வி</a>
+        <a href="category.html?category=விளையாட்டு">விளையாட்டு</a>
+        <a href="category.html?category=சினிமா">சினிமா</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container article-page">
+    <div class="breadcrumb"><a href="index.html">முகப்பு</a> / <span id="articleசெய்திப் பிரிவு">செய்திகள்</span></div>
+    <article>
+      <span class="category-tag" id="articleTag">Mayiladuthurai</span>
+      <h1 id="articleTitle">செய்தித் தலைப்பு</h1>
+      <div class="article-meta" id="articleMeta">Today · TSP செய்திகள்</div>
+      <div class="article-image image-placeholder"><span>செய்தி படம்</span></div>
+      <p class="article-lead" id="articleLead"></p>
+      <div class="article-body" id="articleBody"></div>
+    </article>
+  </main>
+
+  <footer class="site-footer"><div class="copyright">© 2026 TSP செய்திகள். அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை.</div></footer>
+
+  <div class="search-overlay" id="searchOverlay">
+    <div class="search-box">
+      <button class="close-search" id="searchClose">×</button>
+      <span class="eyebrow">TSP NEWS தேடல்</span>
+      <h2>செய்திகளைத் தேடுங்கள்</h2>
+      <form id="searchForm">
+        <input type="search" id="searchInput" placeholder="தேடுக news..." required>
+        <button type="submit">தேடுக</button>
+      </form>
+    </div>
+  </div>
+  <script src="js/news.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
