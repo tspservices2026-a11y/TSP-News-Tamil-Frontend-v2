@@ -12,7 +12,7 @@ let newsData = [
 
 async function loadNewsFromAPI() {
   try {
-    const response = await fetch("http://127.0.0.1:8000/api/news/");
+    const response = await fetch("https://tsp-news-backend.onrender.com/api/news/");
 
     if (!response.ok) {
       throw new Error(`API error: ${response.status}`);
